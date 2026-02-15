@@ -1,9 +1,9 @@
 // Example to get underscore in route we use %5Ftest to make route named as _test 
 
-function testForUnderscoreInRoute(){
-    return(
+function testForUnderscoreInRoute() {
+    return (
         <>
-        <h3>This is the testForUnderscoreInRoute</h3>
+            <h3>This is the testForUnderscoreInRoute</h3>
         </>
     )
 }
