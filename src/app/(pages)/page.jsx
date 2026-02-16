@@ -1,3 +1,4 @@
+// Link component is use to navigate between routes
 import Link from "next/link";
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
         <li><Link href={"/blogs"}>Blogs</Link></li>
         <li><Link href={"/docs"}>Docs</Link></li>
         <li><Link href={"/products"}>Products</Link></li>
+        <li><Link href={"/articles"}>Articles</Link></li>
         <li><Link href={"/about"}>About</Link></li>
         <li><Link href={"/_test"}>_test</Link></li>
       </ul>

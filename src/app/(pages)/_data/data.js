@@ -21,22 +21,36 @@ export const profiles = [
 export const products = [
   {
     id: "123",
-    name: `Iphone`,
+    name: "Iphone",
     price: 1000,
   },
   {
     id: "123a",
-    name: `Laptop`,
+    name: "Laptop",
     price: 500,
   },
   {
     id: "123e",
-    name: `Tablet`,
+    name: "Tablet",
     price: 1500,
   },
   {
     id: "12d3",
-    name: `Cycle`,
+    name: "Cycle",
     price: 400,
+  },
+];
+export const articles = [
+  {
+    id: "news-one",
+  },
+  {
+    id: "news-two",
+  },
+  {
+    id: "news-three",
+  },
+  {
+    id: "news-four",
   },
 ];

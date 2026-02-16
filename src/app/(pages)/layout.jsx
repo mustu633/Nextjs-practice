@@ -1,5 +1,6 @@
 import Footer from "@/components/common/Footer";
 import Navbar from "@/components/common/Navbar";
+import "../../styling/global.css";
 
 export const metadata = {
   title: {
