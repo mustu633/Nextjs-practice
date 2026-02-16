@@ -1,4 +1,4 @@
-const profiles = [
+export const profiles = [
   {
     id: "79uuihiy9y98",
     name: "ali",
@@ -16,5 +16,27 @@ const profiles = [
     name: "asif",
     rollNo: 12,
     age: 21,
+  },
+];
+export const products = [
+  {
+    id: "123",
+    name: `Iphone`,
+    price: 1000,
+  },
+  {
+    id: "123a",
+    name: `Laptop`,
+    price: 500,
+  },
+  {
+    id: "123e",
+    name: `Tablet`,
+    price: 1500,
+  },
+  {
+    id: "12d3",
+    name: `Cycle`,
+    price: 400,
   },
 ];

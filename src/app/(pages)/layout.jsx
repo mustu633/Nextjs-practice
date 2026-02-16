@@ -2,7 +2,10 @@ import Footer from "@/components/common/Footer";
 import Navbar from "@/components/common/Navbar";
 
 export const metadata = {
-  title: "Hello world | (from pages route group)",
+  title: {
+    default: "hello-world",
+    template: "%s | hello-world",  // it is display after the title which we add to a specific page eg Blogs | hello-world
+  },
   description: "This route is from pages route group",
 };
 

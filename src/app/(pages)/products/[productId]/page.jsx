@@ -1,17 +1,26 @@
-// Dynamic route example:
+// Example for dynamic metadata with server component
 
-"use client"
+import ProductClient from "./ProductClient";
 
-import { useParams } from "next/navigation";
+// Dynamic Metadata
+export async function generateMetadata({ params }) {
+  const { productId } = await params;
 
-function singleProduct() {
-    const { productId } = useParams();
-    return (
-        <>
-            <h2>This is detail page for singleProduct : {productId} .</h2>
-        </>
-    )
+  return {
+    title: `Product ${productId}`,
+    description: `Details for product ${productId}`,
+  };
 }
 
+// Server Component
+export default async function SingleProduct({ params }) {
+  const { productId } = await params;
 
-export default singleProduct;
+  const product = {
+    id: productId,
+    name: `Product ${productId}`,
+    price: 1000,
+  };
+
+  return <ProductClient product={product} />;
+}
