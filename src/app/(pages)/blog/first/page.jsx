@@ -1,12 +1,12 @@
 // Nested route example:
 
-function SingleBlog() {
+function singleBlog() {
     return (
         <>
-            <h2>This is first SingleBlog page</h2>
+            <h2>This is first singleBlog page</h2>
         </>
     )
 }
 
 
-export default SingleBlog;
+export default singleBlog;

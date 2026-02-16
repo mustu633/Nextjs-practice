@@ -4,14 +4,14 @@
 
 import { useParams } from "next/navigation";
 
-function SingleProduct() {
+function singleProduct() {
     const { productId } = useParams();
     return (
         <>
-            <h2>This is detail page for SingleProduct : {productId} .</h2>
+            <h2>This is detail page for singleProduct : {productId} .</h2>
         </>
     )
 }
 
 
-export default SingleProduct;
+export default singleProduct;

@@ -1,10 +1,10 @@
-function SingleBlog() {
+function singleBlog() {
     return (
         <>
-            <h2>This is second SingleBlog page</h2>
+            <h2>This is second singleBlog page</h2>
         </>
     )
 }
 
 
-export default SingleBlog;
+export default singleBlog;

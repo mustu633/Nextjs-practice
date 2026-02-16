@@ -4,7 +4,7 @@
 
 import { useParams } from "next/navigation";
 
-function DocsInner() {
+function docsInner() {
     const { slug } = useParams();
     if (slug?.length === 4) {
         return (
@@ -42,4 +42,4 @@ function DocsInner() {
 
 }
 
-export default DocsInner;
+export default docsInner;

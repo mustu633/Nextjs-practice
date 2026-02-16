@@ -4,7 +4,7 @@
 
 import { useParams } from "next/navigation";
 
-function SingleReviewt() {
+function singleReview() {
     const { productId, reviewId } = useParams();
     return (
         <>
@@ -14,4 +14,4 @@ function SingleReviewt() {
 }
 
 
-export default SingleReviewt;
+export default singleReview;

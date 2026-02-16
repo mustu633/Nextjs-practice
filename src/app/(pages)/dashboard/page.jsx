@@ -1,10 +1,10 @@
 // example for File Colocation
 
-function PerformanceGraph() {
+function performanceGraph() {
 
     return (
         <>
-            <h3>This is PerformanceGraph component</h3>
+            <h3>This is performanceGraph component</h3>
         </>
     )
 }
